@@ -1,4 +1,4 @@
-# KrunkerCSS
+# KrunkerCSS :Happy:
 How to use a Krunker CSS:
 
 1) Download a CSS which you like. Take note that CSS's only work in Krunker clients and not in Browser's like the one im using: Firefox.
