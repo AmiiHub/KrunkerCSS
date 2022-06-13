@@ -1,0 +1,59 @@
+/* ========================================================================== */
+
+
+/* @name               masu                                                   */
+
+
+/* @notes              added many comments so you can edit if u know basics   */
+
+
+/* @author             Envy#9335                                              */
+
+
+/* @version            3.0                                                    */
+
+
+/* @functionality      Supports variables                                     */
+
+
+/* @discord            https://discord.gg/2PrtdBvNvc                          */
+
+
+/* ========================================================================== */
+
+@import url(https://envykrunk.github.io/removal/removal.css);
+@import url(https://envykrunk.github.io/masu/masu2.css);
+
+/* Variables */
+
+:root {
+	--accent: crimson;
+	--aesthetics: #080808;
+	--background: #343434;
+	--text-color: #fff;
+	--duration: 420ms;
+	--hp-ammo-size: 52px;
+	--game-bg: rgba(0, 0, 0, .3);
+	--verified-color: #2196f3;
+	--premium-color: gold
+}
+
+a[href],
+a[style*="right"],
+a[onclick],
+a {
+	color: var(--accent)
+}
+
+
+/* Font */
+
+@font-face {
+	font-family: gamefont;
+	src: url(https://fonts.gstatic.com/s/inconsolata/v21/QldgNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWI2qfdm7Lpp7c8WR32lw.woff2)
+}
+
+@font-face {
+	font-family: hpammo;
+	src: url(https://fonts.gstatic.com/s/inconsolata/v21/QldgNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWI2qfdm7Lpp7c8WR32lw.woff2)
+}

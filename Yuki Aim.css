@@ -1,0 +1,56 @@
+@import url(https://oxycotic.github.io/Yuki-Aim/yuki_aim.css); /*Auto Update URL | DO NOT TOUCH*/
+
+/*Customization Settings/設定*/
+
+:root {
+    --accent: #e15959;
+    /*Default Accent: #e15959 | rgb(225, 89, 89) ↽ RGB Values for Settings */
+    
+    --bg-color: #fff;
+    /*Light Mode: #fff | Dark Mode: #353535 or #000*/
+    
+    --text-color: #353535;
+    /*Light Mode: #353535 | Dark Mode: #fff*/
+    
+    --hp-ammo: #fff;
+    /*HP/Ammo Text Color*/
+    
+    --mascot-opacity: 0;
+    /*0 = Invisible | 1 = Visible*/
+    
+    --weapon-icon-brightness: 2;
+    /*0 = Black | 2 = White*/
+    
+    --decals: 1;
+    /*0 = Invisible | 1 = Visible*/
+}
+
+/*English Font*/
+
+@font-face {
+    font-family: gamefont;
+    src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_c5H3gnD_g.woff2);
+}
+
+/*日本語フォント*/
+
+@font-face {
+    font-family: JP;
+    src: url(https://dl.dropboxusercontent.com/s/9b7aer2osbcd388/logotypejp_mp_b_1.1.ttf?dl=0);
+}
+
+/*hi, this krunker css was made by tae.*/
+
+/*
+ign: びこ
+twitter: @whuuayu
+discord: tae#4444 (do not dm unless it s commission related)
+css discord server: https://discord.gg/phKrnFvE3s
+site: https://taekr.carrd.co/
+*/
+
+/*If you want to push an update or your name on the css, please consider donating <3*/
+
+/*Editing and Using Code From This CSS for Nonpersonal Use Is Prohibited :)*/
+
+/*Make Edits Below*/

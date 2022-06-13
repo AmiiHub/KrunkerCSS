@@ -1,0 +1,409 @@
+/* jcstani css */
+
+@import url(https://dl.dropboxusercontent.com/s/cud859gze8t1xt4/extra.css?dl=0);
+
+:root {
+	--accent-color: #ccccff;
+	--health-color: white;
+	--ammo-color: white;
+	--premium-color: var(--accent-color);
+	--verified-color: var(--accent-color);
+	--menu-bg-color: rgba(15, 15, 15, .2);
+	--menu-bg-color-secondary: rgba(0, 0, 0, .5);
+	--ingame-bg-color: rgba(15, 15, 15, .2);
+}
+
+@font-face {
+	font-family: gamefont;
+	src: url(https://fonts.gstatic.com/s/nunito/v14/XRXW3I6Li01BKofAksCUYevI.woff2);
+}
+
+@font-face {
+	font-family: hpammo;
+	src: url(https://fonts.gstatic.com/s/nunito/v14/XRXW3I6Li01BKofAksCUYevI.woff2);
+}
+
+.standout::before {
+	content: 'css by Mistzy#0001 :D';
+}
+
+#newsHolder {
+	display: none!important;
+}
+
+.tabANew {
+    color: var(--accent-color) !important;
+}
+
+.settText {
+    color: black;
+}
+
+.wepLink:hover {
+    color: black !important;
+}
+
+.settName {
+    color: black;
+}
+
+.settNameSmall {
+    color: white;
+}
+
+.settText:hover {
+    color: var(--accent-color) !important;
+}
+
+.setHed {
+    color: var(--accent-color);
+    font-size: 18px;
+}
+
+.sliderSml {
+    background-color: rgb(0 0 0 / 0%);
+    border-radius: 12px
+}
+
+.sliderSml:before {
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+.classXPBar {
+    background-color: #e5e5e5;
+    border-radius: 12px;
+}
+
+.clsXPBarC {
+	border-radius: 12px;
+	height: 25px;
+	margin-top: 0px;
+    margin-left: 0px;
+}
+
+#loadoutSelect {
+    color: black;
+    background-color: transparent;
+}
+
+.classWeap {
+    color: black !important;
+}
+
+.classLvl {
+    color: black;
+}
+
+.classImgC {
+    border-radius: 10px;
+}
+
+.progressBar {
+    background: #e4e2e3;
+    border-radius: 32px;
+}
+
+.progressBarInner {
+    margin-top: -1px;
+    margin-left: 0px;
+    height: 12px;
+    border-radius: 12px;
+}
+
+.classCard {
+	color: black !important;
+}
+
+.classHP {
+	color: black;
+}
+
+.button {
+	color: white !important;
+}	
+
+#menuWindow {
+	background: white !important;
+	border-radius: 25px;
+}
+
+a:hover, a, .settText {
+    color: white !important;
+}
+
+.wepLink {
+	color: black !important;
+}
+
+.settLabel[style*="color:#2196F3"] {
+    color: black !important;
+}
+
+.loadoutBtn {
+	color: black !important;
+}
+
+#loadoutSelect {
+    border-radius: 12px !important;
+}
+
+#menuItemContainer {
+    width: fit-content;
+    height: min-content;
+    top: unset;
+    bottom: 1250px;
+    left: 50%;
+    transform: translateX(-50%);
+    flex-direction: row;
+}
+
+#menuFPS {
+	color: white !important;
+}
+
+#menuFPSDisplay {
+    color: white !important;
+}
+
+.formInput {
+    border-radius: 12px !important;
+}
+
+.terms {
+    color: white !important;
+}
+
+#instructions {
+	color: white;
+}
+
+#customizeButton {
+	color: white;
+}
+
+#timerDisplay {
+    text-align: center;
+    position: fixed;
+    transform: translateX(-50%);
+    top: 0;
+    left: 50%;
+    width: 250px;
+    height: 100px;
+    padding: 0;
+    padding-left: 5px!important;
+    padding-top: 5px!important;
+    padding-right: 5px!important;
+    padding-bottom: 5px!important;
+    margin-left: 0;
+    margin-top: -0.3%;
+    margin-right: 0;
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, .2)!important;
+    will-change: unset;
+    text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
+}
+
+#timerVal {
+    font-size: 75px;
+    padding-left: 0;
+    will-change: unset;
+}
+
+#healthValueHolder {
+	background-color: transparent;
+	width: 100px;
+	height: 65px;
+	border-radius: 0;
+	position: fixed;
+	left: 5%;
+	bottom: 5%;
+	padding: 0;
+	margin-bottom: 0;
+	padding-right: 0;
+	padding-left: 0;
+	align-items: center;
+}
+
+#healthValue {
+	color: var(--health-color);
+	font-family: hpammo;
+	font-size: 100px;
+	text-align: center;
+	text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
+	margin-top: 0;
+	will-change: unset;
+}
+
+#challIcon {
+    content: url(https://media.discordapp.net/attachments/740665002456907827/774573598484594688/hp_0.png)
+}
+
+#ammoDisplay {
+	background-color: transparent;
+	letter-spacing: 0;
+	width: 100px;
+	height: 65px;
+	border-radius: 0;
+	position: fixed;
+	right: 41%;
+	bottom: 8%;
+	padding: 0;
+	padding-top: 0;
+	padding-left: 0;
+	transform: none;
+}
+
+#ammoVal {
+    position: absolute;
+    color: var(--ammo-color);
+    font-family: hpammo;
+    font-size: 100px;
+    margin-left: 12px;
+    text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
+    margin-left: 750px;
+    margin-top: 25px;
+}
+
+#ammoVal:after {
+    content: '';
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: 18px;
+    text-align: center
+}
+
+#ammoIcon {
+    position: absolute;
+    margin-right: 5px;
+    vertical-align: middle;
+    height: 55px;
+    margin-left: 890px;
+    margin-top: 70px;
+    content: url(https://media.discordapp.net/attachments/740665002456907827/774576920867766272/ammo_0_1.png)
+}
+
+#healthValue:after {
+    content: '';
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: 18px;
+    text-align: center
+}
+
+#weapDisplay {
+	display: flex !important;
+	flex-direction: row !important;
+	bottom: 20px;
+	right: 50%;
+	transform: translateX(50%);
+}
+
+.weapItem {
+	margin-top: 0;
+}
+
+.weapKey {
+	display: none;
+}
+
+.weapIcon {
+	width: 0px;
+	height: 0px;
+}
+
+.countIcon {
+    color: rgb(255 255 255);
+    display: inline-block;
+    margin-bottom: 0px;
+    background-color: rgb(228 19 19 / 0%);
+    padding: 0px;
+    font-size: 36px;
+    padding-right: 16px;
+    padding-left: 10px;
+    border-radius: 0px;
+    text-align: center;
+    flex-direction: row
+}
+
+#killsVal:after {
+    content: 'Kills';
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: 18px;
+    text-align: center
+}
+
+#deathsVal:after {
+    content: 'Deaths';
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: 18px;
+    text-align: center
+}
+
+#streakVal:after {
+    content: 'Streak';
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: 18px;
+    text-align: center
+}
+
+#myScoreVal:after {
+    content: 'Score';
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: 18px;
+    text-align: center
+}
+
+#killsVal,#deathsVal,#streakVal,#myScoreVal {
+    color: white;
+}
+
+#killsIcon,#deathsIcon,#streakIcon,#myScoreIcon {
+    display: none;
+}
+
+#uiBase.onMenu #chatHolder {
+    left: 15px;
+   bottom: 10px!important;
+    background-color: rgba(0, 0, 0, .15);
+    border-radius: 12px;
+}
+
+.chatItem {
+    background-color: rgba(255, 255, 255, .2);
+    border-radius: 12px;
+}
+
+#chatHolder {
+    bottom: 150px !important;
+    left: 20px !important;
+	background-color: rgba(0, 0, 0, .2);
+	border-radius: 12px;
+}
+
+#chatInput {
+    background-color: black
+    border-radius: 12px !important;
+    font-size: 16px;
+}
+
+#mLevelCont::before {
+	content: "LVL ";
+}
+
+#killCard {
+    border-radius: 8px;
+}
+
+[style*="color:rgba(0,0,0,0.3)"] {
+    color: black !important;
+}
+
+#leaderDisplay {
+    border-radius: 8px;
+}
